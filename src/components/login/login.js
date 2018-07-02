@@ -7,6 +7,7 @@ import {fakeAuth} from '../../index'
 import {Redirect} from 'react-router-dom';
 import zxcvbn from 'zxcvbn';
 import Button from './login-button';
+import Captcha from './captcha';
 
 class Login extends Component {
 
@@ -164,6 +165,7 @@ class Login extends Component {
 											)
 										}
 				            <br/>
+										<Captcha />
 				            <div class="wrapper">
 				            <span class="group-btn">     
 				                <a onClick={this.login} class="btn btn-primary btn-md">Login <i class="fa fa-sign-in"></i></a>
