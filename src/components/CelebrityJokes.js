@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navigation from './structure/Navigation';
 import Header from './structure/Header';
 import Footer from './structure/Footer';
-import { getCelebrityData } from '../utils/chucknorris-api';
+//import { getCelebrityData } from '../utils/chucknorris-api';
 import axios from 'axios';
 import obj from '../global';
 const BASE_URL = obj.dataapiURL;

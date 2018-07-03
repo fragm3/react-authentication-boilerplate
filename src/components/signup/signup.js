@@ -3,6 +3,7 @@ import './singup.css';
 import axios  from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import {fakeAuth} from '../../index'
+import Captcha from '../login/captcha'
 
 class Singup extends Component{
 	constructor(props){
@@ -60,6 +61,7 @@ class Singup extends Component{
 				            <span class="group-btn">     
 				                <a onClick={this.signup} class="btn btn-primary btn-md">Signup <i class="fa fa-sign-in"></i></a>
 				            </span>
+										<Captcha />
 				            </div>
 				            </div>
 				        
